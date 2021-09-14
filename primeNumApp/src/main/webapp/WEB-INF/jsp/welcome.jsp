@@ -1,0 +1,1 @@
+<h1>Welcome to Prime Number Finder</h1>

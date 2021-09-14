@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Show message</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Prime Numbers </h1>
+
+<p th:text="'Name: ' + ${userInput.name}"></p> 
+<p th:text="'Entered Number: ' + ${userInput.enterNumber}"></p>
+<p th:text="'Prime Numbers: ' + ${userInput.result}"></p>
+<a href="/findPrime">Submit another Number</a>
+
+</body>
+</html>
